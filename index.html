@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trip trip</title>
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- CDN Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <!-- CSS Main -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/login.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <style>
+        .carousel-inner img {
+            border-radius: 10px;
+            display: block;
+            margin: auto;
+            margin-top: 30px;
+            width: 900px;
+            height: 500px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="wrapper fadeInDown" style=" background: linear-gradient(to right, #2a296f, #d62361)">
+
+        <div id="formContent">
+            <div class="fadeIn first">
+                <img src="img/logo/logo.png" id="icon" alt="User Icon" />
+            </div>
+            <form method="post" action="">
+                <input type="text" class="inputlogin fadeIn second" placeholder="Usuario" name="ingUsuario"
+                    id="username" required>
+                <input type="password" class=" inputlogin fadeIn third" name="ingPassword" id="passworduser" required
+                    placeholder="contraseña">
+                <!-- <input type="submit" class="fadeIn fourth" value="Log In"> -->
+                <input type="submit" value="Ingresar" class="btn btn-primary"> <br>
+            </form>
+            <div id="formFooter">
+                <a class="underlineHover" href="#crearUsuario" data-toggle="modal" data-target="#crearUsuario">No tienes
+                    cuenta? Crea una</a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</body>
